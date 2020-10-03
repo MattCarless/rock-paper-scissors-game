@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title> Rock, Paper, Scissors Game</title>
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1 id="mainheaderHTML">Rock, Paper, Scissors Game</h1>
+  <head>
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="mainheaderHTML">Rock, Paper, Scissors Game</h1>
 
-        <script src="script.js"></script>
-    </body>
+
+    <img id="main-image" src="Images/header.jpg">
+
+
+    <div id="stats-div">
+
+      <p id = "games-played-p" class="displayUserDataTags"></p>
+      <p id = "games-won-p" class="displayUserDataTags"></p>
+      <p id = "games-drawn-p" class="displayUserDataTags"></p>
+      <p id = "games-lost-p" class="displayUserDataTags"></p>
+    </div>
+
+    <div id="buttons-div">
+
+      <button id="rock-button" class="mainButton">ROCK</button>
+      <button id="paper-button" class="mainButton">PAPER</button>
+      <button id="scissors-button" class="mainButton">SCISSORS</button>
+    </div>
+
+    <div id="return-info-div">
+      <h2 id="display-result-h2"></h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
